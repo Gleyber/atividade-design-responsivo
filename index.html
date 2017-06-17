@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Atividade Grid Responsivo</title>
+	<meta name="viewport" content="width=device-width">
+	<link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+	<div class="container">
+		<div class="row">
+			<div class="col col-3">
+				<div class="item">coluna 3</div>
+			</div>
+
+			<div class="col col-6">
+				<div class="item">coluna 9</div>
+			</div>
+
+			<div class="col col-3">
+				<div class="item">coluna 9</div>
+			</div>
+		</div>
+		<div class="row">
+			<div class="col col-6">
+				<div class="item">Teste Imagem Responsiva</div>
+			</div>
+			<div class="col col-6">
+				<div class="item">
+					<picture>
+						<source media="(max-width: 767px)" srcset="iphone.jpg">
+						<source media="(min-width: 768px) and (max-width: 1024px)" srcset="tablet.jpg">
+						<img srcset="100-percent.jpg" width="100%">
+					</picture>
+				</div>
+			</div>
+	</div>
+	
+</body>
+</html>
